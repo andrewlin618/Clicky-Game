@@ -1,0 +1,63 @@
+[   
+    {
+      "id": 0,
+      "name": "Monkey D. Luffy",
+      "image":"./images/0.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Roronoa Zoro",
+      "image":"./images/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Nami",
+      "image":"./images/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Usopp",
+      "image":"./images/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Vinsmoke Sanji",
+      "image":"./images/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Tony Tony Chopper",
+      "image":"./images/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Nico Robin",
+      "image":"./images/6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Franky",
+      "image":"./images/7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Brook",
+      "image":"./images/8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Jimbei",
+      "image":"./images/9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Gol D. Roger",
+      "image":"./images/10.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Monkey D. Garp",
+      "image":"./images/11.jpg"
+    }
+  ]
+  

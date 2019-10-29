@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./component/Header";
+// import Footer from "./component/Footer";
+import Jumbotron from "./component/Jumbotron";
+import Card from "./component/Card"
+import {Container,Col} from "./component/Grid";
+import characters from "characters.json"
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    return (
+    <div>
+        <Header />
+        <Jumbotron />
+        <Container>
+            <Col size="md-9">
+            {characters.map(item => (
+            <Card key={item.id} image={item.image}
+            />
+            ))}
+            </Col>
+            <Col size="md-3"></Col>
+        </Container> 
+        {/* <Footer /> */}
     </div>
-  );
+    )
 }
 
 export default App;
