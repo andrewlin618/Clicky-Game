@@ -1,10 +1,9 @@
 import React from "react";
-import "./style.css";
+import "./style.css"
 
 function Card(props){
     return(
-        <image src={props.image} className='cardCharacter'/>
+        <img key={props.key} id={props.key} src={props.image} alt={props.name} onClick={props.onClick} className="btn btn-light"/>
     )
 }
-
 export default Card;

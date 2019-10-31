@@ -1,13 +1,18 @@
 import React from "react";
 import "./style.css";
 
-function Jumbotron() {
+function Jumbotron(props) {
   return (
     <div className="jumbotron text-center">
       <h1>Clicky Game</h1>
-      <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/One_Piece">
+      <a href="https://en.wikipedia.org/wiki/One_Piece">
         Wiki: One piece
       </a>
+      <h3>Best Score: {props.bestScore}</h3>
+      <p>Score: {props.score}</p>
+
+
+      
     </div>
   );
 }

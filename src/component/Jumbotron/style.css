@@ -1,6 +1,8 @@
 .jumbotron {
-  min-height: 160px;
+  min-height: 140px;
   padding-top: 70px;
   /* background-image:url("background.jpg") */
 }
-
+h3{
+  color:red;
+}
