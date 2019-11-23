@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# clicky-game
+## How to play
+1.Click a character to start the game
+2.After you click the character, all pictures would be rerandomized.
+3.Click the character that you have never clicked before. And you score will increase by 1.
+4.Repeat step2&3.
+5. Game over when you click the one who you have clicked before.
+
+
 
 ## Available Scripts
 
