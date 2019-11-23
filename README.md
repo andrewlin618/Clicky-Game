@@ -1,12 +1,10 @@
 # clicky-game
 ## How to play
-1.Click a character to start the game
-2.After you click the character, all pictures would be rerandomized.
-3.Click the character that you have never clicked before. And you score will increase by 1.
-4.Repeat step2&3.
-5. Game over when you click the one who you have clicked before.
-
-
+1.Click a character to start the game<br /><br />
+2.After you click the character, all pictures would be rerandomized.<br /><br />
+3.Click the character that you have never clicked before. And you score will increase by 1.<br /><br />
+4.Repeat step2&3.<br /><br />
+5. Game over when you click the one who you have clicked before.<br /><br />
 
 ## Available Scripts
 
